@@ -6,11 +6,10 @@ void setup() {
 }
 
 void loop() {
-  // 1. 처음 1초 동안 LED 켜기
+
   digitalWrite(ledPin, LOW);
   delay(1000);
 
-  //
   for (int i = 0; i < 6; i++) {
     digitalWrite(ledPin, LOW);
     delay(100);
@@ -18,10 +17,9 @@ void loop() {
     delay(100);
   }
 
-  // 3. 
   digitalWrite(ledPin, HIGH);
   
   while (1) {
-    // 
+    
   }
 }
